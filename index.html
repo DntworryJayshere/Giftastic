@@ -24,7 +24,7 @@
         </p>
         <hr class="my-4" />
         <p>
-          When you click on an animal button, the page should grab 10 static,
+          When you click on an animal button, the page should grab 6 static,
           non-animated gif images from the GIPHY API and place them on the page.
           When you click one of the still GIPHY images, the gif should animate &
           when you click the gif again, it should stop playing.
@@ -32,29 +32,43 @@
       </div>
 
       <!-- topics will get dumped here full screen-->
-      <div id="buttons-view"></div>
-
       <div class="row">
-        <div class="col-md-8">
-          <div id="animal-Images"></div>
+        <div class="col-md-7" id="wordBank">
+          <p class="lead" id="wb">
+            Animal word-bank
+          </p>
+          <div id="buttons-view"></div>
         </div>
 
-        <div class="col-md-4">
-          <form id="animal-Input">
-            <label for="animal-Input">Add an Animal!</label>
-            <br />
-            <input id="search-Animal" type="text" />
-            <br />
+        <div class="col-md-4" id="addToWordBank">
+          <p class="lead" id="awb">
+            Add to the word-bank!
+          </p>
+
+          <form class="form-inline" id="animal-Input">
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="inputPassword2" class="sr-only">Password</label>
+              <input
+                id="search-Animal"
+                type="text"
+                class="form-control"
+                placeholder="chinchilla"
+              />
+            </div>
             <button
               id="add-Animal"
               type="submit"
-              class="btn btn-secondary"
+              class="btn btn-secondary mb-2"
               value="Submit"
             >
-              Add Animal
+              Submit
             </button>
           </form>
         </div>
+      </div>
+
+      <div class="row">
+        <div id="animal-Images"></div>
       </div>
     </div>
 

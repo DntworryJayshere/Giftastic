@@ -1,0 +1,56 @@
+body {
+  background-image: url('../img/background2.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background-image {
+  opacity: 0.5;
+}
+.animal {
+  margin: 2px;
+}
+#buttonTags:hover,
+#buttonTagsNew:hover {
+  background-color: #2125297e;
+}
+#wordBank {
+  float: left;
+  margin: 4px;
+  border-color: black;
+}
+#addToWordBank {
+  float: right;
+  margin: 4px;
+  border-color: black;
+}
+p {
+  margin: 0;
+}
+.animalImgContainer {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#wb {
+  font-weight: bold;
+}
+#awb {
+  font-weight: bold;
+}
+footer {
+  font-size: 15px;
+  text-align: center;
+  color: #212529;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  font-weight: 600;
+}

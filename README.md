@@ -6,4 +6,4 @@ Link to Github Deployment
 https://dntworryjayshere.github.io/Giftastic/
 
 Languages & Technologies used
-HTML, CSS, API, Javascript, Jquery
+HTML, CSS, API, Javascript, Jquery, Ajax.

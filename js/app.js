@@ -1,5 +1,5 @@
 $('document').ready(function () {
-  var topics = ['anteater', 'beaver', 'crocodile', 'duck', 'elephant', 'fox'];
+  var topics = ['alligator', 'beaver', 'crocodile', 'duck', 'elephant', 'fox'];
 
   function displayAnimal() {
     $('#animal-Images').empty();

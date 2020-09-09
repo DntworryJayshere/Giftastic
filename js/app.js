@@ -9,7 +9,7 @@ $('document').ready(function () {
     var queryURL =
       'https://api.giphy.com/v1/gifs/search?q=' +
       animalClicked +
-      '&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=6';
+      '&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=6&rating=g';
     $.ajax({
       url: queryURL,
       method: 'GET',
